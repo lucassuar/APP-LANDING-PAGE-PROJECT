@@ -101,7 +101,14 @@
                                  09. Contact area css
  --------------------------------------------------------------------------------------- */
 
-
+.contact-section {
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 70px;
+    padding-bottom: 30px;
+  
+}
 
 /* ----------------------------------------------------------------------------------------
                                  10. Footer area css
@@ -111,7 +118,7 @@
 footer {
     background-color: #151b25;
     color: #fafafa;
-    padding: 30px 40px 10px 40px;
+    padding: 30px 40px 0px 40px;
     height: 300px;
 }
 
@@ -133,3 +140,4 @@ footer {
     padding: 20px 0px 20px 0px;
     margin: 0;
 }
+

@@ -76,5 +76,5 @@ The text for section Y was copied from the Wikipedia article Z
 
 - I received inspiration for this project from: https://dribbble.com
 - Header gradient color from: https://uigradients.com/#SublimeLight
-- The photos/logo used in this site were obtained from: https://www.altmetric.com/about-us/logos/ , https://themeforest.net/item/stribe-app-landing-page/22071614?s_rank=66 ,
+- The photos/logo used in this site were obtained from: https://www.altmetric.com/about-us/logos/ , https://themeforest.net/item/stribe-app-landing-page/22071614?s_rank=66 , https://www.pexels.com/photo/white-ipad-955447/ , 
 - 
