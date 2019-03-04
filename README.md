@@ -63,6 +63,11 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+    (1) Started new repositery in GitHub: https://github.com/lucassuar/APP-LANDING-PAGE-PROJECT
+    (2) Launched new terminal within Cloud9 and git init to initialize an empty Git repository.
+    (3) Then I did git add . to add existing documents.
+    (4) git commit -m "" to commit the first files.
+
 -------- Credits ---------
 
 Content
