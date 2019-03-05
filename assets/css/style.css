@@ -70,19 +70,37 @@
                                 04. Feature area css
  --------------------------------------------------------------------------------------- */
 
+.feature-area {
+    margin: 90px 60px 60px 60px;
+}
+
+.p-intro {
+    padding: 20px 60px 10px 60px;
+}
+
 
 
 /* ----------------------------------------------------------------------------------------
-                                05. Video area css
+                                05. Screens area css
  --------------------------------------------------------------------------------------- */
 
 
+.featured-screens-section {
+    background-color: #e8f4fd;
+    margin: 0;
+    padding: 110px 60px 110px 60px;
+}
 
 
 /* ----------------------------------------------------------------------------------------
                                  06. Price area css
  --------------------------------------------------------------------------------------- */
 
+.pricing-section {
+    background-color: #fff;
+    margin: 0;
+    padding: 110px 60px 110px 60px;
+}
 
 
 /* ----------------------------------------------------------------------------------------
@@ -105,9 +123,7 @@
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-left: 70px;
-    padding-bottom: 30px;
-  
+    padding: 110px 60px 110px 60px;
 }
 
 /* ----------------------------------------------------------------------------------------
