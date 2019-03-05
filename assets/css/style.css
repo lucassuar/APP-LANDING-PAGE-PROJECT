@@ -126,6 +126,29 @@
     padding: 110px 60px 110px 60px;
 }
 
+.contact-head h3 {
+    color: #fff;
+}
+
+.contact-head h5 {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+[type="text"] {
+    margin-bottom: 8px;
+}
+
+button[type="submit"] {
+    color: #6A82FB;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 /* ----------------------------------------------------------------------------------------
                                  10. Footer area css
  --------------------------------------------------------------------------------------- */
