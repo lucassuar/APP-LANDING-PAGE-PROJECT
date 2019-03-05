@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <!-- Used some of bootstrap navigation code and modifying to my needs -->
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
 	        <a class="navbar-brand mr-auto mt-2 mt-lg-0" href="index.html">
 	            <img src="assets/images/logo-image.png"></img></a>
 	        
@@ -32,30 +32,31 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
-			 <!--  
-                  <span class="navbar-text">
-                    slogan text
-                  </span>
-                          -->
 	
-	        <div class="collapse navbar-collapse" id="navbar-items">
+	        <div class="collapse navbar-collapse navbar-items" id="navbarNavAltMarkup">
 	            <ul class="navbar-nav ml-auto">
 	                <li class="nav-item active">
-	                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 	                </li>
 	                <li class="nav-item">
-	                    <a class="nav-link" href="#feature">Features</a>
+	                    <a class="nav-link" href="#feature">Why Us?</a>
 	                </li>
 	                <li class="nav-item">
-	                    <a class="nav-link" href="#">Testimonials</a>
+	                    <a class="nav-link" href="#screens">Examples</a>
 	                </li>
 	                <li class="nav-item">
-	                    <a class="nav-link" href="#">Contact</a>
+	                    <a class="nav-link" href="#pricing">Pricing</a>
 	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#contact">Request Info</a>
+	                </li>
+	                <li class="nav-item">
+    	                <div class="navbar-nav">
+    	                      <button class="btn btn-sm align-middle btn-navb" type="button">Free Demo</button>  
+    	                </div>
+    	             </li>
 	            </ul>
-	            <div class="navbar-nav">
-	              <button class="btn btn-sm align-middle btn-primary" type="button">Always visible here!</button>  
-	            </div> 
+	             
 	        </div>
       </nav>
 		
@@ -65,10 +66,10 @@
 	<section id="header" class="container-fluid header-area">
        <div class="row align-items-center row-header">
             <div class="col-md-6 header-first">
-                <h1 class="cover-heading">Do it All From Anywhere.</h1>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-header">Learn more</a>
+                <h1 class="cover-heading">App Builder for iOS & Android.</h1>
+                <p class="header-p-1">Build mobile apps in a fraction of the time and cost using BuildFire’s powerful and easy to use app builder.</p>
+                <p class="u">
+                    <a href="#" class="btn btn-header">Learn more</a>
                 </p>
             </div>
             
@@ -87,11 +88,11 @@
     
             <div class="features-intro">
                 <h2 class="h1-responsive  text-center">Why is our app so special?</h2>
-                <p class="p-intro w-responsive mx-auto mb-5 lead grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <p class="p-intro w-responsive mx-auto mb-5 lead  text-center">With over 10,000 apps on our platform and over $250,000,000 saved in development costs, don’t take our word for it, just listen to our customers.
                 </p>
             </div>
             
-           
+
             <div class="row row-features">
         
                 <div class="col-lg-5 text-center text-lg-left features-img">
@@ -106,8 +107,8 @@
                             <i class="fas fa-shipping-fast fa-lg indigo-text icon-f"></i>
                         </div>
                         <div class="col-xl-10 col-md-11 col-10">
-                            <h5 class="font-weight-bold mb-3">Safety</h5>
-                            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+                            <h5 class="font-weight-bold mb-3">Fully managed app</h5>
+                            <p class="grey-text">When you build an app from scratch there are hundreds of parts you’ll need to consider. Fortunately for you BuildFire’s app builder takes care of all the heavy lifting for you so you can focus only on your business.</p>
                         </div>
                     </div>
                 
@@ -118,8 +119,8 @@
                             <i class="fas fa-lock fa-lg indigo-text icon-f"></i>
                         </div>
                         <div class="col-xl-10 col-md-11 col-10">
-                            <h5 class="font-weight-bold mb-3">Safety</h5>
-                            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+                            <h5 class="font-weight-bold mb-3">For any type of business</h5>
+                            <p class="grey-text">Build a mobile app for your company. Make all of your company resources easily available, create key workflows, gather data...and so much more. Connect deeper with your audience through interactive experiences.</p>
                         </div>
                     </div>
         
@@ -132,8 +133,8 @@
                             <i class="fas fa-comments fa-lg indigo-text icon-f"></i>
                         </div>
                         <div class="col-xl-10 col-md-11 col-10">
-                            <h5 class="font-weight-bold mb-3">Safety</h5>
-                            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+                            <h5 class="font-weight-bold mb-3">We build your app for you</h5>
+                            <p class="grey-text">Our team of talented developers and designers will work one-on-one with you to take your app from idea to reality. We’ve helped businesses from Fortune 500 companies to small local businesses build powerful mobile apps.</p>
                         </div>
                     </div>
         
@@ -154,7 +155,13 @@
 
     <!-- screenshot area starts -->
     
-        <section class="pt64 pb24 featured-screens-section">
+        <section id="screens" class="pt64 pb24 featured-screens-section">
+            <div class="screens-intro">
+                <h2 class="h1-responsive  text-center">The new way of building custom mobile apps.</h2>
+                <p class="p-intro w-responsive mx-auto mb-5 lead grey-text text-center">Our proprietary methodology allows us to create and manage custom apps faster.
+                </p>
+            </div>
+            
             <div class="container featured-screen-cont">
                 <img class="feature-screen" src="assets/images/screen-1.jpg"  alt="screen1">
                 <img class="feature-screen" src="assets/images/screen-2.jpg"  alt="screen2">
@@ -165,53 +172,60 @@
 
 
     <!-- Price area starts -->
+    <!-- *** Pricing elements used from pebuild example on bootstrap. -->
     
-   <section class="pricing-section">
+   <section id="pricing" class="pricing-section">
+       <div class="pricing-intro">
+                <h2 class="h1-responsive  text-center">Convinient Plans For Your Need</h2>
+                <p class="p-intro w-responsive mx-auto mb-5 lead grey-text text-center">Choose a plan below that suits your needs.
+                </p>
+            </div>
+            
         <div class="container">
             <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 shadow-sm">
+                <div class="card mb-4 shadow-sm price-item">
                     <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Free</h4>
+                        <h4 class="my-0 font-weight-normal">Starter</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <h1 class="card-title pricing-card-title"> <small class="text-muted"> Free</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>10 users included</li>
                             <li>2 GB of storage</li>
                             <li>Email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                        <button type="button" class="btn btn-lg btn-block btn-price">Sign up for free</button>
                     </div>
                 </div>
-                <div class="card mb-4 shadow-sm">
+                <div class="card mb-4 shadow-sm price-item">
                     <div class="card-header">
                         <h4 class="my-0 font-weight-normal">Pro</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <h1 class="card-title pricing-card-title">€15 <small class="text-muted">/ mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>20 users included</li>
                             <li>10 GB of storage</li>
                             <li>Priority email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                        <button type="button" class="btn btn-lg btn-block btn-price">Contact us</button>
                     </div>
                 </div>
-                <div class="card mb-4 shadow-sm">
+                <div class="card mb-4 shadow-sm price-item">
                     <div class="card-header">
                         <h4 class="my-0 font-weight-normal">Enterprise</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <h1 class="card-title pricing-card-title">€29 <small class="text-muted">/ mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>30 users included</li>
                             <li>15 GB of storage</li>
                             <li>Phone and email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        <button type="button" class="btn btn-lg btn-block btn-price">Contact us</button>
                     </div>
                 </div>
             </div>
@@ -220,23 +234,7 @@
         </div>
     </section>
 
-
-
-
-    <!-- Client logos -->
-    
-    <div id="logos" class="logos-area section-big">
-        <div class="container">
-
-        </div>
-    </div>
- 
-
-
-    <!-- Screenshots starts  -->
-
    
-
 
     <!-- Contact form -->
         <!-- Used the skeleton of the contact form used n the resume excercise. -->
@@ -244,8 +242,8 @@
     <section id="contact" class="contact-section">
         <div class="row">
            <div class="col contact-head">
-				<h3 class="contact-header h1-responsive  text-center">Got a project in mind?</h3>
-				<h5 class="w-responsive mx-auto mb-5 lead grey-text text-center">Let´s work together.</h5>
+				<h3 class="contact-header h1-responsive  text-center">Get a Dedicated App For Your Service</h3>
+				<h5 class="w-responsive mx-auto mb-5 lead grey-text text-center">Let us know what your needs are and we´ll build an app for you.</h5>
 				
 				  
                   <form class="container-contact">
@@ -254,7 +252,7 @@
                     <textarea rows="5" class="form-control" name="projectsummary" id="projectsummary" placeholder="Project Description"></textarea>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="submit" class="btn btn-primary">Send Project Request</button>
+                            <button type="submit" class="btn btn-submit">Send Request</button>
                         </div>
                     </div>
                  </form>
@@ -271,29 +269,37 @@
         <div class="container-fluid text-center text-md-left footer-sections">
             <div class="row">
                 <div class="col-md-6 mt-md-0 mt-3">
-                    <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat. Itaque, culpa?</p>
+                    <h5 class="text-uppercase font-weight-bold">About Us</h5>
+                    <p>We empower the business professional to solve complex problems with elegant mobile solutions that are simple to build, easy to manage and available to everyone.</p>
                 </div>
     
                 <hr class="clearfix w-100 d-md-none pb-3">
 
                 <div class="col-md-6 mb-md-0 mb-3">
 
-                    <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi hic.</p>
-    
+                    <h5 class="text-uppercase font-weight-bold">Stay Connected</h5>
+                    <p>Subscribe to our newsltter and recive our latest news, product updates and industry insights.</p>
+                    <div class="footer-sub">
+                        <input type="text" name="Email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <button type="submit" class="btn btn-footer">Subscribe</button>                
+                    </div>
                 </div>
             </div>
         </div>
-        
+       
+       <!-- 
         <div class="footer-copyright text-center">© 2019 Copyright:
             <a href="index.html"> MyApp.com</a>
-        </div>
+        </div> -->
     
     
     </footer>
- 
-
+    
+    <!-- JS Code -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 
 </html>

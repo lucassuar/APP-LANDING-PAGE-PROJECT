@@ -71,10 +71,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 -------- Credits ---------
 
 Content
-The text for section Y was copied from the Wikipedia article Z
+
 
 - Inspiration: https://colorlib.com/preview/#bulkapp
 - I received inspiration for this project from: https://dribbble.com
 - Header gradient color from: https://uigradients.com/#SublimeLight
 - The images/logo used in this site were obtained from: https://www.altmetric.com/about-us/logos/ , https://themeforest.net/item/stribe-app-landing-page/22071614?s_rank=66 , https://www.pexels.com/photo/white-ipad-955447/ , https://colorlib.com/preview/#bulkapp
-- 
+- pricing section code taken from: https://getbootstrap.com/docs/4.3/examples/pricing/
+- Content from: https://buildfire.com

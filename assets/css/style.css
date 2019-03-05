@@ -7,6 +7,9 @@
                               01. General css
  -------------------------------------------------------------------------------------- */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /* ----------------------------------------------------------------------------------------
@@ -21,15 +24,38 @@
     padding-left: 20px;
 }
 
-#navbar-items li {
+.navbar-items li {
    margin: 10px 10px;
+   
 }
 
-#navbar-items {
+.navbar-items {
    margin-right: 20px;
 }
 
+.btn-navb {
+   background-image: linear-gradient(to right, #6A82FB, #FC5C7D); 
+   border: none;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+}
 
+
+.btn-navb:hover {
+  color: white;
+  background-image: linear-gradient(to right, #FC5C7D, #6A82FB);
+  
+}
+
+.navbar {
+    background-color: #e8f4fd;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /* ----------------------------------------------------------------------------------------
@@ -42,6 +68,7 @@
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-left: 70px;
     padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-first {
@@ -63,7 +90,24 @@
 }
 
 .btn-header {
-    background-color: #b471ba;
+   background-color: #fff; 
+   border: none;
+   color: #6A82FB;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 19px;
+}
+
+.header-p-1 {
+    padding: 10px 0 15px 0; 
+}
+
+.header-first p {
+    font-weight: 300;
+    font-size: 19px;
 }
 
 /* ----------------------------------------------------------------------------------------
@@ -72,13 +116,17 @@
 
 .feature-area {
     margin: 90px 60px 60px 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #6c757d;
 }
 
 .p-intro {
     padding: 20px 60px 10px 60px;
 }
 
-
+.fa-lock {
+	color: green;
+}
 
 /* ----------------------------------------------------------------------------------------
                                 05. Screens area css
@@ -88,7 +136,18 @@
 .featured-screens-section {
     background-color: #e8f4fd;
     margin: 0;
-    padding: 110px 60px 110px 60px;
+    padding: 110px 90px 110px 90px;
+    font-family: 'Roboto', sans-serif;
+    color: #6c757d;
+}
+
+.featured-screen-cont {
+    display: flex;
+    justify-content:space-between;
+}
+
+.featured-screen-cont img {
+    max-height: 400px;
 }
 
 
@@ -100,6 +159,34 @@
     background-color: #fff;
     margin: 0;
     padding: 110px 60px 110px 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #6c757d;
+}
+
+.card-header {
+    background-color: #e8f4fd;
+}
+
+.price-item {
+    border-color: #e8f4fd;
+}
+
+
+
+.btn-price {
+   background-image: linear-gradient(to right, #6A82FB, #FC5C7D); 
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+.btn-price:hover {
+   color: white;
+   background-image: linear-gradient(to right, #FC5C7D, #6A82FB);
 }
 
 
@@ -124,6 +211,7 @@
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 110px 60px 110px 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-head h3 {
@@ -142,12 +230,19 @@
     margin-bottom: 8px;
 }
 
-button[type="submit"] {
-    color: #6A82FB;
-    background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.btn-submit {
+   background-color: #fff; 
+   border: none;
+   color: #6A82FB;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-bottom: 20px;
 }
+
+
 
 /* ----------------------------------------------------------------------------------------
                                  10. Footer area css
@@ -156,9 +251,11 @@ button[type="submit"] {
 
 footer {
     background-color: #151b25;
-    color: #fafafa;
-    padding: 30px 40px 0px 40px;
-    height: 300px;
+    color: #e8f4fd;
+     padding: 110px 60px 110px 60px;
+    font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 
@@ -166,13 +263,6 @@ footer {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.footer-sections h5 {
-    font-size: 15px;
-}
-
-.footer-sections p {
-    font-size: 12px;
-}
 
 .footer-copyright {
     font-size: 12px;
@@ -180,3 +270,69 @@ footer {
     margin: 0;
 }
 
+.btn-footer {
+    background-color: #e8f4fd;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------
+                                 Media Queries
+ --------------------------------------------------------------------------------------- */
+
+
+/* _________________ Small devices __________________*/
+
+@media only screen and (max-device-width: 768px) {
+
+/* Header - Small Devices */
+    .header {
+        margin: 0;
+        padding: 0 -10px 0 0;
+    }
+        
+    .header-first {
+        margin: 0;
+        padding: 0 -10px 0 0;
+        text-align: center;
+    }
+
+/* Features - Small Devices */
+
+    .feature-area {
+        margin: 60px 3px 60px 3px;
+        
+    }
+    
+    .p-intro {
+        padding: 0;
+    } 
+    
+/* Screenshots - Small Devices */
+
+.featured-screens-section {
+    margin: 0;
+    padding: 90px 3px 90px 3px;
+}
+
+.featured-screen-cont img {
+    max-height: 300px;
+}
+
+
+
+.pricing-section {
+    margin: 0;
+    padding: 90px 3px 90px 3px;
+}
+
+.btn-price {
+   padding: 7px 7px;
+   font-size: 19px;
+}
+
+
+/* _________________ Medium devices __________________*/
+@media only screen and (min-width: 768px) and (max-device-width: 768px){
+    
+} 
