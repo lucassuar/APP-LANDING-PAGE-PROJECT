@@ -1,9 +1,6 @@
 APP LANDING PAGE PROJECT
 
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+- Almetric is a custom app builder service for iOS & Android platform. Any type of business can have a custom and mantain mobile apps in a fraction of the time and cost.
 
 ------- UX ---------
 
@@ -67,11 +64,13 @@ In addition, if it is not obvious, you should also describe how to run your code
     (2) Launched new terminal within Cloud9 and git init to initialize an empty Git repository.
     (3) Then I did git add . to add existing documents.
     (4) git commit -m "" to commit the first files.
+    (5) After final completition I have upload it to the main github repositery by using the following commands:
+        - git remote add origin https://github.com/lucassuar/APP-LANDING-PAGE-PROJECT.git
+        - git push -u origin master
 
 -------- Credits ---------
 
 Content
-
 
 - Inspiration: https://colorlib.com/preview/#bulkapp
 - I received inspiration for this project from: https://dribbble.com

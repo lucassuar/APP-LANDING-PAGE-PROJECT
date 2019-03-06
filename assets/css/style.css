@@ -152,10 +152,10 @@ body {
     justify-content:space-between;
 }
 
+
 .featured-screen-cont img {
     max-height: 400px;
 }
-
 
 /* ----------------------------------------------------------------------------------------
                                  06. Price area css
@@ -298,6 +298,7 @@ footer {
 .btn-footer:hover {
    color: white;
    background-image: linear-gradient(to right, #FC5C7D, #6A82FB);
+}
 
 .social-links li a i {
     width: 52px;
@@ -307,7 +308,6 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
     background-color: #8f8f8f;
     transition: all .0.35s ease-in-out;
     -moz-transition: all .0.35s ease-in-out;
@@ -326,7 +326,7 @@ footer {
 
 /* _________________ Small devices __________________*/
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 /* Header - Small Devices */
 
@@ -343,13 +343,16 @@ footer {
 
 /* Features - Small Devices */
 
+
 .feature-area {
     margin: 60px 3px 60px 3px;
 }
     
 .p-intro {
 padding: 0;
-    } 
+} 
+
+
     
 /* Screenshots - Small Devices */
 
@@ -373,5 +376,8 @@ padding: 0;
    font-size: 19px;
 }
 
+.fas {
+    display: none; 
+}
 
 }
