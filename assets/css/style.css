@@ -136,6 +136,10 @@ body {
     color: #FC5C7D;
 }
 
+.fas:hover {
+   color: #6A82FB;
+}
+
 
 /* ----------------------------------------------------------------------------------------
                                 05. Screens area css
@@ -188,12 +192,7 @@ body {
 .price-item {
     border-color: #e8f4fd;
     transition: box-shadow .3s;
-    width: 80%;
-}
-
-.price-item:hover {
-  box-shadow: 0 0 29px rgba(33,33,33,.4); 
-  width: 80%;
+    
 }
 
 
@@ -284,32 +283,34 @@ footer {
     color: #e8f4fd;
      padding: 110px 60px 110px 60px;
     font-family: 'Roboto', sans-serif;
-    
-    
+    position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
-
-.footer-copyright {
-    background-color: rgba(0, 0, 0, 0.3);
+.footer-2 h5, .footer-1 h5 {
+    font-size: 17px;
 }
 
-
-.footer-copyright {
-    font-size: 12px;
-    padding: 20px 0px 20px 0px;
-    margin: 0;
+.footer-2 p, .footer-1 p {
+    font-size: 15px;
 }
 
+.footer-1 img {
+    padding-top: 1em;
+    width: 20%;
+}
 
 .btn-footer {
    background-image: linear-gradient(to right, #6A82FB, #FC5C7D); 
    border: none;
    color: white;
-   padding: 15px 32px;
+
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 16px;
+   font-size: 15px;
    margin-top: 10px;
    
 }
@@ -317,6 +318,11 @@ footer {
 .btn-footer:hover {
    color: white;
    background-image: linear-gradient(to right, #FC5C7D, #6A82FB);
+}
+
+.subs-input {
+    background-color: #374761;
+    color: #fff;
 }
 
 /*

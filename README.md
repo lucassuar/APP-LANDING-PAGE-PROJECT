@@ -1,6 +1,7 @@
 APP LANDING PAGE PROJECT
 
-- Almetric is a custom app builder service for iOS & Android platform. Any type of business can have a custom and mantain mobile apps in a fraction of the time and cost.
+- Almetric is a custom app builder service for iOS & Android platform. Any type of business can have a custom 
+and mantain mobile apps in a fraction of the time and cost.
 
 ------- UX ---------
 
@@ -12,19 +13,36 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ------ Features --------
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+My project consist of a single page website to allow for easy access to information for the user. As its a simple service I decided 
+to market it in one-page with diferent section that will form the entire layout and will act as pages.
+
+The elements used are the following:
+
+1- NavBar: its a responsive bar that allow the user to quickly navigate to anywhere on the site as the would normally 
+do with pages.
+
+2- Header: Its meant to grab attention with colorful background and a short and direct sales-pitch lines and a app showcase.
+
+3- Features/benefits section: The main three benefits that the potential customer can gain by subscribing to the service.
+
+4- Examples section: It is meant to be a showcase of diferent parts of an app that can be build.
+
+5- pricing section: Straigh forward, simple and easy-to-understand pricing model for all types of customers. 
+Also included a fremiun plan that will convert a 5% (for example) of those subscribers.
+
+6- Contact section: the objective of this section is to convert as many prospects as posible, that why is easy to spot with their CTA.
+
+7- Footer: simple footer that encourge people to stay connected by email for future nurturing campaigns.
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Features Left to Implement
-Another feature idea
-Technologies Used
+Features Left to Imple
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- In this proyect I have been using mainly HTML5, Bootstrap and CSS3.
+
 
 -------- JQuery ----------
 
@@ -38,17 +56,16 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
---------- Contact form ---------
+--------- Contact form Testing ---------
 
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
+I went to the "Contact Us" page and the following elements:
+
+- I tried to submit the empty form and verify that an error message about the required field appears.
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- In addition, that the website looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ---------- Deployment ------------
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
