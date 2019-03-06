@@ -66,13 +66,9 @@ body {
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-left: 70px;
+   
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
-}
-
-.header-first {
-  max-height: 500px;
 }
 
 .header-first h1, .header-first p {
@@ -89,6 +85,15 @@ body {
   max-height: 500px;
 }
 
+.header-p-1 {
+    padding: 10px 0 15px 0; 
+}
+
+.header-first p {
+    font-weight: 300;
+    font-size: 19px;
+}
+
 .btn-header {
    background-color: #fff; 
    border: none;
@@ -101,14 +106,6 @@ body {
    font-size: 19px;
 }
 
-.header-p-1 {
-    padding: 10px 0 15px 0; 
-}
-
-.header-first p {
-    font-weight: 300;
-    font-size: 19px;
-}
 
 /* ----------------------------------------------------------------------------------------
                                 04. Feature area css
@@ -147,6 +144,10 @@ body {
     color: #6c757d;
 }
 
+.screens-intro {
+    padding-bottom: 30px;
+}
+
 .featured-screen-cont {
     display: flex;
     justify-content:space-between;
@@ -175,8 +176,12 @@ body {
 
 .price-item {
     border-color: #e8f4fd;
+    transition: box-shadow .3s;
 }
 
+.price-item:hover {
+  box-shadow: 0 0 110px rgba(33,33,33,.2); 
+}
 
 
 .btn-price {
@@ -300,24 +305,11 @@ footer {
    background-image: linear-gradient(to right, #FC5C7D, #6A82FB);
 }
 
-.social-links li a i {
-    width: 52px;
-    height: 52px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    background-color: #8f8f8f;
-    transition: all .0.35s ease-in-out;
-    -moz-transition: all .0.35s ease-in-out;
-    -webkit-transition: all .0.35s ease-in-out;
-    -o-transition: all .0.35s ease-in-out;
+/*
+#fullname, #emailaddress, #projectsummary {
+    width: 60%;
 }
-
-.social-links li a i:hover {
-    background: #e84610;
-}
+*/
 
 /* ----------------------------------------------------------------------------------------
                                  Media Queries
@@ -331,15 +323,22 @@ footer {
 /* Header - Small Devices */
 
 .header {
-    margin: 0;
-    padding: 0 -10px 0 0;
+    padding-left: 0;
+}
+
+.row-header {
+    padding-top: 60px;
 }
         
 .header-first {
-    margin: 0;
-    padding: 0 -10px 0 0;
     text-align: center;
 }
+
+.features-list {
+    text-align: center;
+}
+
+
 
 /* Features - Small Devices */
 
@@ -358,13 +357,21 @@ padding: 0;
 
 .featured-screens-section {
     margin: 0;
-    padding: 90px 3px 90px 3px;
+    padding: 0;
+    padding-bottom: 70px;
+}
+
+.screens-intro {
+    padding: 90px 5px 50px 5px;
 }
 
 .featured-screen-cont img {
-    max-height: 300px;
+    margin: auto; 
+    padding-top: 10px;
 }
 
+
+/* Pricing - Small Devices */
 
 .pricing-section {
     margin: 0;
