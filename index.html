@@ -9,6 +9,7 @@
 
     <!-- Site title -->
     <title>Single Page App Landing Page</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-16.png"/>
 
     <!-- Bootstrap/fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -25,15 +26,15 @@
     <!-- Used some of bootstrap navigation code and modifying to my needs -->
     
     <nav class="navbar navbar-expand-lg navbar-light ">
-	        <a class="navbar-brand mr-auto mt-2 mt-lg-0" href="index.html">
+	            <a class="navbar-brand mr-auto mt-2 mt-lg-0" href="index.html">
 	            <img src="assets/images/logo-image.png"></img></a>
 	        
-	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-bar" aria-controls="nav-bar" aria-label="Toggle navigation" aria-expanded="false" >
-				<span class="navbar-toggler-icon"></span>
-			</button>
+    	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	            <span class="navbar-toggler-icon"></span>
+    	        </button>
 			
 	
-	        <div class="collapse navbar-collapse navbar-items" id="navbarNavAltMarkup">
+	        <div class="collapse navbar-collapse navbar-items" id="navbarSupportedContent">
 	            <ul class="navbar-nav ml-auto">
 	                <li class="nav-item active">
 	                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -52,7 +53,7 @@
 	                </li>
 	                <li class="nav-item">
     	                <div class="navbar-nav">
-    	                      <button class="btn btn-sm align-middle btn-navb" type="button">Free Demo</button>  
+    	                      <button class="btn btn-sm align-middle btn-navb" type="submit" formaction="#contact">Free Demo</button>  
     	                </div>
     	             </li>
 	            </ul>
@@ -91,20 +92,18 @@
                 <p class="p-intro w-responsive mx-auto mb-5 lead  text-center">With over 10,000 apps on our platform and over $250,000,000 saved in development costs, don’t take our word for it, just listen to our customers.
                 </p>
             </div>
-            
-
             <div class="row row-features">
-        
+                <!-- image -->
                 <div class="col-lg-5 text-center text-lg-left features-img">
                     <img class="img-fluid align-top" src="assets/images/app-colaboration.png" alt="app-image">
                 </div>
             
-                <div class="col-lg-7">
-        
-                    <!-- Grid rows -->
-                    <div class="row mb-3">
+                <!-- Grid Rows -->
+                <div class="col-lg-7 features-list">
+                    
+                    <div class="row mb-3 first-item-features">
                         <div class="col-1">
-                            <i class="fas fa-shipping-fast fa-lg indigo-text icon-f"></i>
+                            <i class="fas fa-shipping-fast fa-lg indigo-text "></i>
                         </div>
                         <div class="col-xl-10 col-md-11 col-10">
                             <h5 class="font-weight-bold mb-3">Fully managed app</h5>
@@ -112,44 +111,32 @@
                         </div>
                     </div>
                 
-                    <div class="row mb-3">
-        
+                    <div class="row mb-3 second-item-features">
                         <div class="row mb-3">
-                        <div class="col-1">
-                            <i class="fas fa-lock fa-lg indigo-text icon-f"></i>
+                            <div class="col-1">
+                                <i class="fas fa-lock fa-lg indigo-text "></i>
+                            </div>
+                            <div class="col-xl-10 col-md-11 col-10">
+                                <h5 class="font-weight-bold mb-3">For any type of business</h5>
+                                <p class="grey-text">Build a mobile app for your company. Make all of your company resources easily available, create key workflows, gather data...and so much more. Connect deeper with your audience through interactive experiences.</p>
+                            </div>
                         </div>
-                        <div class="col-xl-10 col-md-11 col-10">
-                            <h5 class="font-weight-bold mb-3">For any type of business</h5>
-                            <p class="grey-text">Build a mobile app for your company. Make all of your company resources easily available, create key workflows, gather data...and so much more. Connect deeper with your audience through interactive experiences.</p>
-                        </div>
-                    </div>
-        
                     </div>
                     
-                    <div class="row">
-        
+                    <div class="row mb-3 third-item-features">
                         <div class="row mb-3">
-                        <div class="col-1">
-                            <i class="fas fa-comments fa-lg indigo-text icon-f"></i>
-                        </div>
-                        <div class="col-xl-10 col-md-11 col-10">
-                            <h5 class="font-weight-bold mb-3">We build your app for you</h5>
-                            <p class="grey-text">Our team of talented developers and designers will work one-on-one with you to take your app from idea to reality. We’ve helped businesses from Fortune 500 companies to small local businesses build powerful mobile apps.</p>
+                            <div class="col-1">
+                                <i class="fas fa-comments fa-lg indigo-text icon-f"></i>
+                            </div>
+                            <div class="col-xl-10 col-md-11 col-10">
+                                <h5 class="font-weight-bold mb-3">We build your app for you</h5>
+                                <p class="grey-text">Our team of talented developers and designers will work one-on-one with you to take your app from idea to reality. We’ve helped businesses from Fortune 500 companies to small local businesses build powerful mobile apps.</p>
+                            </div>
                         </div>
                     </div>
-        
-                    </div>
-                  
-        
+                    
                 </div>
-               
-        
             </div>
-            <!-- Grid row -->
-
-
-        
-        
     </section>
     
 
@@ -271,6 +258,38 @@
                 <div class="col-md-6 mt-md-0 mt-3">
                     <h5 class="text-uppercase font-weight-bold">About Us</h5>
                     <p>We empower the business professional to solve complex problems with elegant mobile solutions that are simple to build, easy to manage and available to everyone.</p>
+                
+                 <!-- Social media icons area copied from last project (resume)-->
+                        <p class="inline-block">
+        	 				<ul class="social-links list-inline">
+        	 					<li class="list-inline-item">
+        	 						<a href="#" target="black" class="facebook-i">
+        	 							<i class="fab fa-facebook" aria-hidden="true"></i>
+        	 					        <span class="sr-only">Facebook</span>
+        	 					    </a>
+        	 					</li>
+        	 					<li class="list-inline-item">
+        	 						<a href="#" target="black" class="twitter-i">
+        	 							<i class="fab fa-twitter" aria-hidden="true"></i>
+        	 					        <span class="sr-only">Twitter</span>
+        	 					    </a>
+        	 					</li>
+        	 					<li class="list-inline-item">
+        	 						<a href="#" target="black" class="linkedin-i">
+        	 							<i class="fab fa-linkedin" aria-hidden="true"></i>
+        	 					        <span class="sr-only">Linkedin</span>
+        	 					    </a>
+        	 					</li>
+        	 					<li class="list-inline-item">
+        	 						<a href="#" target="black" class="youtube-i">
+        	 							<i class="fab fa-youtube" aria-hidden="true"></i>
+        	 					        <span class="sr-only">Youtube</span>
+        	 					    </a>
+        	 					</li>
+        	 				</ul>
+        	 			</p>
+                <!-- Social media icons end-->
+                
                 </div>
     
                 <hr class="clearfix w-100 d-md-none pb-3">
