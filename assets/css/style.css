@@ -283,10 +283,6 @@ footer {
     color: #e8f4fd;
      padding: 110px 60px 110px 60px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 
 .footer-2 h5, .footer-1 h5 {
@@ -325,11 +321,6 @@ footer {
     color: #fff;
 }
 
-/*
-#fullname, #emailaddress, #projectsummary {
-    width: 60%;
-}
-*/
 
 /* ----------------------------------------------------------------------------------------
                                  Media Queries
